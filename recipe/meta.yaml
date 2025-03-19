@@ -1,5 +1,5 @@
 {% set name = "msgraph-sdk" %}
-{% set version = "1.24.0" %}
+{% set version = "1.25.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/msgraph_sdk-{{ version }}.tar.gz
-  sha256: d401160cfdab239867faf3b7e6984632dd11524d893a0c816db2d5a64adda650
+  sha256: cdcf73ae77326326e681ab0d75e4ca1f27cff8ce1ecda36bfce2af68010a49a0
 
 build:
   noarch: python
